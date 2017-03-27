@@ -10,19 +10,19 @@ files, iterators, and generators.
 
 p = (4, 5)
 x, y = p
-print x, y
+print(x, y)
 
-data = ['Name', 59, 123.4, (2017, 01, 01)]
+data = ['Name', 59, 123.4, (2017, 1, 1)]
 name, amount, price, date = data
-print name
-print amount
-print price
-print date
+print(name)
+print(amount)
+print(price)
+print(date)
 
 name, amount, price, (year, month, day) = data
-print year
-print month
-print day
+print(year)
+print(month)
+print(day)
 
 """if there is a mismatch in the number of elements, you'll get an error.
 for example:
@@ -34,11 +34,11 @@ print z
 
 s = "Hello"
 a, b, c, d, e = s
-print a, b, c, d, e
+print(a, b, c, d, e)
 
 """Pick a throwaway variable name to discard certain values when unpacking.
 """
 teams = ["warriors", "spurs", "rockets", "jazz"]
 _, s, _, j = teams
-print s
-print j
+print(s)
+print(j)
