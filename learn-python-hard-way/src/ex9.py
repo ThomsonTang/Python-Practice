@@ -3,13 +3,13 @@
 days = "Mon Tue Wed"
 months = "Jan Feb Mar"
 
-print "days: ", days
-print "months: ", months
+print("days: ", days)
+print("months: ", months)
 
-print '''this is 
+print('''this is 
 test 
-'''
+''')
 
-print """this
+print("""this
 is
-a test"""
+a test""")

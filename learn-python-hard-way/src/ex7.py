@@ -1,3 +1,3 @@
 # More Printing
 
-print "*" * 10
+print("*" * 10)
